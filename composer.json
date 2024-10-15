@@ -1,0 +1,26 @@
+{
+    "name": "rama-seck/projet_gestion_pedagogique",
+    "description": "projet",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ProjetGestionPedagogique\\": "src/",
+            "ProjetGestionPedagogique\\App\\Controllers\\": "src/App/Controllers/",
+            "ProjetGestionPedagogique\\App\\Models\\": "src/App/Models/",
+            "ProjetGestionPedagogique\\App\\Entity\\": "src/App/Entity/",
+            "ProjetGestionPedagogique\\Core\\": "src/Core/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Ramaseck1",
+            "email": "seckrama022@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
